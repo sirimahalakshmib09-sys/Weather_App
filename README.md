@@ -138,7 +138,7 @@ README.md
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/sirimahalakshmib09-sys/Weather_App
 ```
 
 ### Navigate to Project
@@ -202,8 +202,11 @@ Through this project, I gained hands-on experience in:
 ## Author
 
 **Siri Maha Lakshmi Burugupilli**
-Open to SWE internships
-GitHub: [https://github.com/sirimahalakshmib09-sys]
+
+Open to SWE internships  
+
+GitHub: [https://github.com/sirimahalakshmib09-sys]  
+
 LinkedIn: [www.linkedin.com/in/siri-maha-lakshmi-burugupilli-b964a3361]
 
 ---

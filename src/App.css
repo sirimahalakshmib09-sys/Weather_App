@@ -1,3 +1,6 @@
+/*GLOBAL RESET
+   Removes default browser spacing and
+   applies consistent box sizing*/
 *
 {
   margin: 0;
@@ -5,6 +8,9 @@
   box-sizing: border-box;
 }
 
+/*MAIN APP CONTAINER
+   Displays full-screen background image
+   and centers weather card*/
 .app
 {
   min-height: 100vh;
@@ -17,6 +23,9 @@
   align-items: center;
 }
 
+/*WEATHER CARD
+   Glassmorphism container for all weather
+   information and controls*/
 .weathercard
 {
   width: 800px;
@@ -31,6 +40,8 @@
   text-align: center;
 }
 
+/* SEARCH INPUT FIELD
+   City name input box*/
 .weathercard input
 {
   width: 100%;
@@ -42,6 +53,8 @@
   font-size: 1rem;
 }
 
+/*BUTTON STYLING
+   Search and Location buttons*/
 .weathercard button
 {
   width: 100%;
@@ -56,27 +69,34 @@
   cursor: pointer;
 }
 
+/* BUTTON HOVER EFFECT
+   Slight zoom effect on hover*/
 .weathercard button:hover
 {
   transform: scale(1.03);
 }
 
+/* MAIN WEATHER ICON/TEMPERATURE HEADINGS*/
 .weather-info h1
 {
   font-size: 4rem;
   margin: 10px 0;
 }
 
+/* CITY NAME HEADING*/
 .weather-info h2
 {
   margin: 5px 0;
 }
 
+/*FAHRENHEIT TEMPERATURE HEADING*/
 .weather-info h3
 {
   margin: 5px 0;
 }
 
+/* WEATHER DETAILS SECTION
+   Contains humidity, wind, sunrise, sunset*/
 .details
 {
   display: flex;
@@ -85,30 +105,37 @@
   margin-top: 25px;
 }
 
+/* WEATHER EMOJI ICON*/
 .weather-icon
 {
   font-size: 4rem;
   margin: 0;
 }
 
+/*MAIN TEMPERATURE DISPLAY*/
 .temp
 {
   font-size: 5rem;
   margin: 10px 0;
 }
 
+/* WEATHER CONDITION TEXT
+   Example: Sunny, Cloudy, Rainy*/
 .condition
 {
   font-size: 1.2rem;
   margin-bottom: 20px;
 }
 
+/* TEXT INSIDE DETAIL CARDS*/
 .details p
 {
   font-size: 1.1rem;
   font-weight: bold;
 }
 
+/*INDIVIDUAL DETAIL CARD
+   Humidity, Wind, Sunrise, Sunset */
 .detail-card
 {
   min-width: 120px;
@@ -119,11 +146,13 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* DETAIL CARD HEADING*/
 .detail-card h4
 {
   margin-bottom: 8px;
 }
 
+/* FORECAST SECTION TITLE*/
 .forecast-title
 {
   margin-top: 30px;
@@ -131,6 +160,8 @@
   text-align: center;
 }
 
+/* FORECAST CARD CONTAINER
+   Holds all forecast cards horizontally */
 .forecast-container
 {
   display: flex;
@@ -140,6 +171,8 @@
   padding-bottom: 10px;
 }
 
+/* INDIVIDUAL FORECAST CARD
+   Shows daily weather prediction*/
 .forecast-card
 {
   min-width: 90px;
@@ -151,10 +184,11 @@
   flex-shrink: 0;
 }
 
-/* Mobile Responsive */
-
+/* MOBILE RESPONSIVE STYLES
+   TABLETS AND SMALL LAPTOPS */
 @media (max-width: 768px)
 {
+  /* Resize weather card */
   .weathercard
   {
     width: 95%;
@@ -162,16 +196,19 @@
     margin: 20px 0;
   }
 
+  /* Reduce heading size */
   .weather-info h1
   {
     font-size: 3rem;
   }
 
+  /* Reduce temperature size */
   .temp
   {
     font-size: 4rem;
   }
 
+  /* Allow detail cards to wrap */
   .details
   {
     flex-wrap: wrap;
@@ -179,12 +216,14 @@
     gap: 15px;
   }
 
+  /* Make detail cards responsive */
   .detail-card
   {
     min-width: 140px;
     flex: 1 1 40%;
   }
 
+  /* Enable horizontal scrolling for forecast */
   .forecast-container
   {
     justify-content: flex-start;
@@ -193,45 +232,55 @@
   }
 }
 
+/* MOBILE PHONE STYLES
+   FOR DEVICES BELOW 480px*/
 @media (max-width: 480px)
 {
+  /* Reduce card padding */
   .weathercard
   {
     padding: 15px;
   }
 
+  /* Reduce heading size further */
   .weather-info h1
   {
     font-size: 2.5rem;
   }
 
+  /* Reduce temperature size */
   .temp
   {
     font-size: 3rem;
   }
 
+  /* Reduce weather icon size */
   .weather-icon
   {
     font-size: 3rem;
   }
 
+  /* Stack detail cards vertically */
   .details
   {
     flex-direction: column;
     align-items: center;
   }
 
+  /* Make cards full width */
   .detail-card
   {
     width: 100%;
     max-width: 250px;
   }
 
+  /* Keep forecast cards compact */
   .forecast-card
   {
     min-width: 90px;
   }
 
+  /* Reduce input and button size */
   .weathercard input,
   .weathercard button
   {

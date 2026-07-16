@@ -62,6 +62,32 @@ Build a responsive weather application that provides essential weather informati
 
 ---
 
+## Screenshots
+
+### Home Screen
+
+![Home Screen](./screenshots/home-screen.png)
+
+Clean and intuitive interface that allows users to search weather information by city name or use their current location.
+
+---
+
+### Weather Search Result
+
+![City Weather](./screenshots/city-weather.png)
+
+Displays real-time weather information including temperature, weather condition, humidity, wind speed, sunrise, sunset, and a 5-day forecast.
+
+---
+
+### Current Location Weather
+
+![Location Weather](./screenshots/location-weather.png)
+
+Uses browser geolocation to fetch and display weather information for the user's current location.
+
+---
+
 ## Tech Stack
 
 ### Frontend
@@ -175,13 +201,10 @@ Through this project, I gained hands-on experience in:
 
 ## Author
 
-**Siri Maha Lakshmi**
-
-B.Tech Computer Science and Engineering
-Frontend Developer | Java Learner | Aspiring Software Engineer
-
-GitHub: [Your GitHub Profile]
-LinkedIn: [Your LinkedIn Profile]
+**Siri Maha Lakshmi Burugupilli**
+Open to SWE internships
+GitHub: [https://github.com/sirimahalakshmib09-sys]
+LinkedIn: [www.linkedin.com/in/siri-maha-lakshmi-burugupilli-b964a3361]
 
 ---
 
